@@ -1,0 +1,18 @@
+// Placez vos combinaisons de touches dans ce fichier pour remplacer les valeurs par défaut
+[
+  {
+    "key": "ctrl+shift+c",
+    "command": "editor.action.addCommentLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+x",
+    "command": "editor.action.removeCommentLine",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+f",
+    "command": "editor.action.formatDocument",
+    "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  }
+]
