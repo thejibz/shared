@@ -14,5 +14,10 @@
     "key": "ctrl+shift+f",
     "command": "editor.action.formatDocument",
     "when": "editorHasDocumentFormattingProvider && editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+alt+f",
+    "command": "search.action.focusActiveEditor",
+    "when": "searchInputBoxFocus && searchViewletVisible"
   }
 ]
