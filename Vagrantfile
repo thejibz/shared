@@ -73,5 +73,9 @@ Vagrant.configure("2") do |config|
       # install ho my zsh
       sudo yum -y install zsh git
       sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+      chsh -s /bin/zsh
+
+      sudo su - vagrant -c sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+      sudo su - vagrant -c chsh -s /bin/zsh
    SHELL
 end
