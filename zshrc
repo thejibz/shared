@@ -1,4 +1,4 @@
-plugins=(ssh-agent docker docker-compose git vagrant ruby perl zsh-syntax-highlighting history-substring-search)
+plugins=(ssh-agent docker docker-compose git zsh-syntax-highlighting history-substring-search)
 
 alias dc="docker-compose"
 alias dti="docker exec -ti "
